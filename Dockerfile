@@ -8,4 +8,4 @@ RUN yaourt -Syy ; \
 
 WORKDIR /home/guiuser
 USER guiuser
-
+ENTRYPOINT ["pgadmin4"]
